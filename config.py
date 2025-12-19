@@ -38,7 +38,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/istkhar-pvt/jully",
+    "https://github.com/ISTKHAR-CODER786/ali",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "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")
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", 'NxGBNexGenBots2d8c91') # youtube song api ke  -------------------------------------------------------------------------
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jully_updates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/https://t.me/+yKqAivJnwbcwOWJl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IamIstkhar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xfr6-ZOTaZVmODU1")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
