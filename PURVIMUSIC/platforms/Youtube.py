@@ -15,9 +15,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from py_yt import VideosSearch, CustomSearch
 import base64
-from AarumiMusic import LOGGER
-from AarumiMusic.utils.database import is_on_off
-from AarumiMusic.utils.formatters import time_to_seconds
+from PURVIMUSIC import LOGGER
+from PURVIMUSIC.utils.database import is_on_off
+from PURVIMUSIC.utils.formatters import time_to_seconds
 
 YTPROXY = "https://tgapi.xbitcode.com"
 YT_API_KEY = "xbit_OUSyPQed15gE4m0MmpXTwBKH5XUha-8S"
