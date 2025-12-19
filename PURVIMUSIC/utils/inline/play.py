@@ -52,21 +52,19 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "▰▱▱▱▱▱▱▱✺▰"
     else:
         bar = "▰▱▱▱▱▱▱▱▰✺"
-      buttons = [
-
-    [
-            #InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            #InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            #InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-           # InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-           # InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-         ],
-        [
+    buttons = [
+                [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
         ],
+        [
+            InlineKeyboardButton(text="◁ ʀᴇꜱᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="☊ ᴘᴀᴜꜱᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="▷ ꜱᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
+        ],
+           
         
          [
              InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/Itzz_Istkhar"),
